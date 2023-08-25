@@ -1,0 +1,618 @@
+
+        /*CSS for navigation bar and carousel*/
+        .d-flex .btn{
+            background-color: #DF6951;
+            border:none;
+            color:white;
+            }
+            .carousel-inner {
+                position: relative; 
+            }
+            
+            .navbar {
+                position:absolute;
+                top:20px;
+                z-index:1;
+                width:100%;
+                max-height:auto;
+            }
+           /* .navbar-nav{
+              margin-left: 248px;
+            }
+            .headerbtn{
+              margin-left: 192px;
+            }*/
+            p{
+            position:absolute; 
+            bottom: 300px;
+            left: 10px;
+        }
+           .carimg{
+            position:absolute;
+            bottom: 520px;
+            left: 40px;
+           }
+           .carimg1{
+            position:absolute;
+            bottom: 220px;
+            left: 40px;
+           }
+           .carcol{
+            position:absolute;
+            bottom: 290px;
+            left: 5px;
+            
+        
+           }
+           @media only screen and (min-width:1000px)
+           {
+              .navbar-nav{
+                margin-left: 280px;
+              }
+
+
+           }
+        
+        
+            /* Media Queries for Navigation bar and carousel start*/
+            @media only screen and (min-width: 997px) and (max-width: 1200px)
+              {
+                
+                p{
+                 
+                  bottom:230px;
+                }
+                b{
+                  font-size:20px;
+                }
+                .carimg{
+                  
+                  bottom:450px;
+                }
+                .carcol{
+                 
+                  bottom: 230px;
+                 }
+                
+                .carimg1{
+                  
+                  bottom: 180px;
+                 }
+                }
+              
+            @media only screen and (min-width:768px)and (max-width: 998px)
+            {
+              .navbar-toggler{
+                font-size:25px;
+              }
+              p{
+               
+                bottom:100px;
+              }
+              b{
+                font-size:12px;
+              }
+              .carimg{
+                max-width: 22%;
+                max-height: 35%;
+                bottom:280px;
+              }
+              .carcol{
+               
+                bottom: 120px;
+               }
+              .carimg1{
+                max-width: 60%;
+                bottom: 85px;
+               }
+              }
+              @media only screen and (min-width:576px)and (max-width: 767px)
+              {
+                .navbar-brand img{
+                  max-width: 55%;
+                  max-height:45%;
+                }
+               .navbar-toggler{
+                  font-size:20px;
+                }
+                p{
+                 
+                  bottom:40px;
+                }
+                b{
+                  font-size:12px;
+                }
+                .carimg{
+                  max-width: 15%;
+                  max-height: 25%;
+                  bottom:200px;
+                }
+                .carcol{
+                 
+                  bottom: 50px;
+                  column-count:1;
+                 }
+                .carimg1{
+                  max-width: 50%;
+                  bottom: 25px;
+                }
+                
+                .nav{
+                  background-color: #DF6951;
+                  position: fixed;
+                  left: 0px;
+                  width: 100%;
+                  top: 100px;
+                  text-align:start;
+                  
+                }
+                div.carousel-indicators{
+                  z-index:-1;
+              }
+                
+                .nav-link{
+                  
+                  padding-bottom:18px;
+                  margin:0px;
+                 
+                }
+                .nav-item{
+                  padding-left: 6px;
+                }
+               
+                
+                 
+                
+        
+              }
+              @media only screen and (max-width:576px)
+            {
+                .logo img{
+                  max-width:50px;
+                }
+                button.navbar-toggler{
+                  font-size:12px;
+                  padding:0rem;
+                  
+                }
+                div.carousel-indicators{
+                  z-index:-1;
+              }
+                .nav-item{
+                  padding-left: 6px;
+                }
+                .nav-link{
+               
+                  font-size: 13px;
+                 padding-bottom: 0.5px;
+                 margin:0px;
+                 
+                }
+                .carimg1{
+                  max-width: 260px;
+                  bottom: 5px;
+                }
+                p{
+                  bottom: -30px;
+                  left: 30px;
+                }
+                b{
+                  font-size: 8px;
+                 
+                  
+                }
+                .carousel-indicators{
+                  bottom: -12px;
+                }
+                .carimg{
+                  bottom: 122px;
+                  max-width: 30px;
+                }
+                .headerbtn{
+               
+                font-size: 8px;
+               }
+               .nav{
+                background-color: #DF6951;
+                position: fixed;
+                left: 0px;
+                width: 100%;
+                top: 100px;
+              }
+              
+                
+            }
+              
+              /*CSS For Footer*/
+
+            .footer1,.reserved{
+                background-color:#F5F5F5;
+                position:relative;
+            }
+           
+            .footer{
+                font-weight:bold;
+               
+            }
+            .email{
+                max-width:60%;
+                max-height:3%;
+            }
+            @media only screen and (max-width:576px)
+            {
+              .footerspace{
+                margin-top:10px;
+                margin-bottom:2px;
+              }
+              .footer{
+                margin-bottom:3px;
+              }
+              .footspace{
+                margin-bottom:4px;
+              }
+              
+            }
+            /*.footerimage{
+                position: absolute;
+                top: 800px;
+                left:1100px;
+                max-width:30%;
+                max-height:30%
+              
+            }
+            */
+
+
+            /*CSS For Companies Section*/
+            .companies{
+              background-color: #F5F5F5;
+            }
+
+            /*Media Queries for Companes*/
+            @media only screen and (max-width:576px)
+            {
+              .companies{
+                position: relative;
+                text-align:center;
+              }
+              .compspace{
+                padding-top: 8px;
+                padding-bottom: 15px;
+              }
+              .email{
+                max-width: 70%;
+              }
+          
+            }
+
+            /*CSS For Card section*/
+            .cards{
+              text-align: center;
+              border: none;
+              position:relative;
+              
+            }
+            .card img{
+              max-width: 30%;
+               max-height: 30%;
+              
+             
+            }
+          
+            .card{
+              border:none;
+              background-color: none;
+              
+            }
+            .cards p{
+              bottom: -55px;
+            }
+            .cards h6{
+              color:#DF6951;
+            }
+            
+
+            .rect{
+              position:absolute;
+              left: 216px;
+              bottom: -218px;
+              z-index:-1;
+              max-width:38%;
+      
+            }
+            .brownrect{
+               position:absolute;
+               max-width:10%;
+              max-height:auto;
+              z-index:-2;
+              bottom: -80px;
+              left: 240px; 
+              
+            }
+
+
+            /*Media Queries for Cards*/
+            @media only screen and (max-width:576px)
+            {
+              .card{
+                margin-left: 40px;
+               text-align:center;
+               font-size:15px;
+               width: 18rem;
+             }
+             
+             .rect{
+              
+              left: 0px;
+              max-width: 120%;
+              top: 308px;
+            }
+            .brownrect{
+              bottom: 416px;
+              max-width: 20%;
+              left: 45px;
+            }  
+            img.mx-auto.cardimg{
+              max-width: 50px;
+            }
+            }
+
+            @media only screen and (min-width:575px) and (max-width:768px){
+            
+              .card-text {
+                margin-right: 30px;
+              }
+             }
+
+            
+
+             /*CSS For Tropical Section*/
+             .troph6{
+              color: #DF6951;
+            }
+             
+            .trop .btncol{
+              background-color: #DF6951;
+              border:none;
+            }
+           
+             
+            /* media queries for trop section*/
+
+             @media only screen and (min-width:375px) and (max-width:575px)
+             {
+              .trop{
+                text-align:center;
+                font-size:12px;
+              }
+              .trop img{
+                max-width: 60%;
+                padding-right: 30px;
+              }
+              .troph5{
+                font-size: 16px;
+              }
+
+             
+             }
+
+
+             /*css for Fast and easy section*/
+             .row1 img{
+              margin-left: 200px;
+              }
+              .row2 img{
+                margin-left: 200px;
+              }
+              .row3 img{
+                margin-left: 200px;
+              }
+              .fastcol{
+                color:#DF6951;
+              }
+              .fastcol, .fasth2{
+                text-align:center;
+              }
+              
+              @media only screen and (min-width:375px) and (max-width:575px)
+              {
+              .fast{
+                text-align:center;
+                
+               }
+               .row1 img{
+                margin-left: -10px;
+                padding-top:10px;
+                padding-bottom: 5px;
+                max-width: 30px;
+               }
+               .row2 img{
+                margin-left: -10px;
+                padding-top:10px;
+                padding-bottom: 5px;
+                max-width: 30px;
+               }
+               .row3 img{
+                margin-left: -10px;
+                padding-top:10px;
+                padding-bottom: 5px;
+                max-width: 30px;
+               }
+
+              }
+
+              /*CSS  for Holiday*/
+              .holiday{
+                background-image: url("/travelweb/assets/image/liberty.png");
+                background-size: cover; 
+               
+                
+              }
+              .holiday img{
+                position: relative;
+                max-width:300px;
+              }
+
+              @media only screen and (min-width:375px) and (max-width:575px){
+                .holidaybg img{
+                  max-width: 50%;
+                  top: -50px;
+                }
+              }
+
+
+              /*CSS for promotion*/
+              .promotion .promoh5{
+                color:#DF6951;
+              }
+
+              .destination{
+                position: relative;
+                top:-250px;
+
+              }
+             
+              
+
+              /*media Queries for Promotion*/
+              @media only screen and (min-width:375px) and (max-width:575px)
+              {
+                .destination{
+                  margin-top: 275px;
+                  max-width:200px;
+                  max-height:auto;
+                  margin-left:80px;
+                  
+                }
+                .destinationimg{
+                  margin-bottom:10px;
+                }
+                .promotion{
+                  text-align:center;
+                  padding-top:5px;
+                }
+                .promoh2{
+                  padding-top:5px;
+                }
+                .promoh6
+                {
+                  padding-top:5px;
+                  font-size: 15px;
+                }
+                
+              }
+
+              /*Media Quieries for Explore*/
+              @media only screen and (min-width:375px) and (max-width:575px)
+              {
+                .explore img{
+                  padding-bottom:50px;
+
+                }
+              }
+
+              /*CSS for trendy section*/
+              .trendy{
+                text-align:center;
+              }
+              .trendyh5{
+                color:#DF6951;
+              }
+
+              .card1 img{
+                position: relative;
+                max-width: 100%;
+               
+              }
+
+              .trendy .card-title {
+                text-align:left;
+              }
+             .trendycol{
+              color:#DF6951;
+             }
+             .trendycol2{
+              color:gray;
+              text-decoration: line-through;
+             }
+             .trendybutton{
+              background-color:#DF6951;
+              border:none;
+             
+             }
+             .icons img{
+              max-height:80%;
+             }
+
+             @media only screen and (min-width:375px) and (max-width:575px)
+              {
+                .trendy .card-title{
+                  text-align: center;
+                }
+                .card1 img{
+                  text-align:center;
+                 
+                }
+                .trendymain{
+                  left:-18px;
+                }
+                .icons img{
+                  padding-top:5px;
+                }
+                .trendyh6{
+                  font-size:14px;
+                }
+              }
+
+              /*CSS For reviews Section*/
+              .reviews{
+                 background-image: url("/travelweb/assets/image/reviewsbg.png");
+                background-size: cover; 
+                background-repeat: none;
+                text-align: center;
+              }
+              .reviewsh5{
+                color:#DF6951;
+                padding-top: 100px;
+              }
+              
+              /*media Queries for Reviews section*/
+              @media only screen and (min-width:375px) and (max-width:575px)
+              {
+                .reviewsh5{
+                  font-size:12px;
+                }
+                .reviewsh2{
+                  font-size:15px;
+                }
+              }
+
+              /*Media Queries for footer*/
+              @media only screen and (min-width:375px) and (max-width:575px)
+              {
+                .footer1{
+                  text-align:center;
+                }
+
+              }
+
+              
+
+             
+
+             
+            
+             
+               
+               
+               
+              
+
+             
+            
+               
+              
+            
+        
+           
+        

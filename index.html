@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/custom.css">
+    <title>Travel Website</title>
+    <style>
+    
+
+   
+
+    </style>
+  </head>
+  <body>
+    <!--Navigation Bar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container-fluid px-5 ">
+    <a class="navbar-brand logo" href="index.php"><img src="assets/image/logo.png" alt="Logo is not displayed"></a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    
+    <div class="collapse navbar-collapse nav"  id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 fs-6 pt-0"> <!--removed text-center-->
+        <li class="nav-item">
+          <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item pt-0" href="#">Honeymoon Packages</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Tour Packages</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Musical Events</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Build Package</a></li>
+           
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Upcomming Packages
+          </a>
+          <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item pt-0" href="#">Action</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Another action</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Action</a></li>
+            <li><a class="dropdown-item pt-0" href="#">Another action</a></li>
+           
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+       <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
+        <button class="btn headerbtn" type="submit">Get In Touch</button>
+      </form>
+    </div>
+    
+
+    </nav>
+
+                        <!--Carousel Section Start-->
+ <section class="navbarcar">
+ <div id="carouselExampleCaptions" class="carousel slide carousel-inner">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/image/header.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+      <img class="carimg" src="assets/image/vector.png" class="img-fluid" alt="...">
+      <p class="fs-2"><b>No Matter Where </br> you're Going to, We'll </br> Take you there</b> </br></br></p>
+        <!--column start-->
+        <div class="container carcol">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn  dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Where To?
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient ">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                </div>
+            
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+        <!--column End-->
+
+      <img class="carimg1"src="assets/image/clients.png" class="img-fluid" alt="...">
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img src="assets/image/header.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+      <img class="carimg" src="assets/image/vector.png" class="img-fluid" alt="...">
+      <p class="fs-2"><b>No Matter Where </br> you're Going to, We'll </br> Take you there</b> </br></br></p>
+                <!--column start-->
+        <div class="container carcol">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn  dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Where To?
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient ">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                
+                </div>
+            
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+        <!--column End-->
+
+      <img class="carimg1" src="assets/image/clients.png" class="img-fluid" alt="...">
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img src="assets/image/header.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption"><!--It blocks the content when the screen will be small-->
+      <img class="carimg" src="assets/image/vector.png" class="img-fluid" alt="...">
+      <p class="fs-2"><b>No Matter Where </br> you're Going to, We'll </br> Take you there</b> </br></br></p>
+                <!--column start-->
+        <div class="container carcol">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn  dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Where To?
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient ">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                
+                </div>
+            
+                <div class="col-sm-4 col-md-4 col-lg-2 bg-gradient">
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Travel Type
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+        <!--column End-->
+
+      <img class="carimg1" src="assets/image/clients.png" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+<!--Second section travel agencies Name Start-->
+        <div class="container-fluid pt-5 pb-5 companies">
+        <div class="row ">
+        <div class="col-lg-1 col-md-1 col-sm-1">
+           
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 compspace">
+            <img src="assets/image/emirates.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 compspace">
+            <img src="assets/image/trivago.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 compspace">
+            <img src="assets/image/airbnb.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 compspace">
+            <img src="assets/image/turkish.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 compspace">
+            <img src="assets/image/swiss.png" class="img-fluid" alt="...">
+            </div>
+        </div>
+        </div>
+
+<!--cards section start-->
+    <section>
+        <div class="container cards">
+        <div class="row">
+                <h6 class="pt-2 pb-2">CATEGORY</h6>
+                <h2>We Offer Best Services</h2>
+            <div class="col-lg-3 col-md-6 col-sm-6 pt-5 pb-5">
+            <div class="card" >
+                <img class="mx-auto cardimg" src="assets/image/guide.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Guided Tours</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 pt-5 pb-5">
+            <div class="card" >
+                <img class="mx-auto cardimg" src="assets/image/flights.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Best Flights Options</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+           
+            </div>
+            <img class="rect" src="assets/image/rectangle.png" class="img-fluid" alt="...">
+           <img class="brownrect" src="assets/image/brownrectangle.png" class="img-fluid" alt="..."> 
+
+
+            
+           
+            <div class="col-lg-3 col-md-6 col-sm-6 pt-5 pb-5">
+            <div class="card" >
+                <img class="mx-auto cardimg" src="assets/image/religious.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Religious Tour</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            </div>
+            
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 pt-5 pb-5">
+            <div class="card" >
+                <img class="mx-auto cardimg" src="assets/image/med.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Medical Insurance</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            </div>
+            
+            
+        </div>
+               </div>
+</section>
+
+
+<!--Tropical section final start-->
+<section class="trop">
+            <div class="container-fluid mt-5">
+            <div class="row pt-5">
+                <div class="col-lg-5 col-md-5 col-sm-6">
+                <img src="assets/image/introductory1.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-6">
+                <h6 class="troph6 mt-2">HONEYMOON SPECIALS</h6>
+                <h2 class="mt-2">Our Romantic Tropical Destination</h2>
+                <h5 class="troph5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo accusamus temporibus voluptas consequatur accusantium! Doloremque deleniti a repellendus ratione nisi, at laudantium.</h5>
+                <button type="button" class="btn btn-primary btncol mt-2">View Packages</button>    
+            </div>
+               
+            </div>
+            </div>
+    
+
+</section>
+
+
+<section class="fast">
+        <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-6">
+                <h6 class="fastcol pt-2">Fast & Easy</h6>
+                <h2 class="fasth2 pt-2">Get Your Favourite </br>Resort Booking</h2>
+                <div class="row row1 mt-3">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <img src="assets/image/destination.png" class="img-fluid" alt="...">
+                    </div>   
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                        <h4>Choose Destination</h4>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    </div>    
+                </div>
+        
+            <div class="row row2">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <img src="assets/image/available.png" class="img-fluid" alt="...">
+                    </div>   
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <h4>Check Availability</h4>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    </div>    
+            </div>
+            <div class="row row3">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <img src="assets/image/letsgo.png" class="img-fluid" alt="...">
+                    </div>   
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <h4>Let's Go</h4>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6">
+            <img src="assets/image/fastandeasyimg.png" class="img-fluid" alt="...">
+            </div>
+            
+        </div>
+        </div>
+</section>
+
+<!--Holiday Section-->
+<section class="holiday">
+    <div class="container-fluid mt-5 ">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 holidaybg">
+            <img class="ms-5 ps-5 pt-5 mt-5"src="assets/image/holidaylets.png" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Promotion Section start-->
+<section class="promotion">
+        <div class="container mt-5">
+        <div class="row"> 
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            <h5 class="promoh5">PROMOTION</h5>
+            <h2 class="promoh2">We provide you best europe sightseeing tours</h2>
+            <h6 class="pt-2 pb-2 promoh6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium quo, culpa harum error sunt quam quae laboriosam esse distinctio nobis, recusandae omnis! Nemo ipsam sit distinctio corrupti animi voluptatibus.</h6>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="assets/image/promotion1.png" class="img-fluid" alt="...">
+            </div>
+            <div class="row destination">
+                <div class="col-lg-2 col-md-2 col-sm-2 destinationimg">
+                <img src="assets/image/destination1.png" class="img-fluid" alt="...">
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-2 destinationimg">
+                <img src="assets/image/destination2.png" class="img-fluid" alt="...">
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-2 destinationimg">
+                <img src="assets/image/destination3.png" class="img-fluid" alt="...">
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-2 destinationimg">
+                <img src="assets/image/destination4.png" class="img-fluid" alt="...">
+                 </div>
+            </div>
+
+            
+        </div>
+        </div>
+</section>
+
+<!--Explore Section-->
+<section class="explore">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+    <img src="assets/image/nature.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+    <img src="assets/image/cities.png" class="img-fluid" alt="...">
+    </div>
+    
+  </div>
+</div>
+</section>
+
+<!--Trendy Section-->
+<section class="trendy">
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h5 class="trendyh5 mt-2">TRENDY</h5>
+                <h2 class="trendyh2 mt-2">OUR TRENDY TOUR PACKAGES</h2>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <div class="card card1">
+                    <img class="trendymain" src="assets/image/switzerland.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/days.png" class="img-fluid" alt="..."></div>  
+                            <div class="col-lg-3 col-md-3 col-sm-3">8 Days</div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/people.png" class="img-fluid" alt="..."></div> 
+                            <div class="col-lg-5 col-md-5 col-sm-5">25 People Going</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6"><h4 class="card-title">Switzerland</h4></div>
+                            <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="assets/image/star.png" class="img-fluid" alt="..."></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/location.png" class="img-fluid" alt="..."></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 trendybrazil">Europe</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h2 class="trendycol">1,000 $</h2></div>
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h4 class="trendycol2">1,200 $</h4></div>
+                        </div>
+                         
+                        <h6 class="card-text pb-2 trendyh6">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+                        <a href="#" class="btn btn-primary trendybutton">Explore Now</a>
+                    </div>
+                 </div>
+                
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <div class="card card1">
+                    <img class="trendymain" src="assets/image/amazon.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/days.png" class="img-fluid" alt="..."></div>  
+                            <div class="col-lg-3 col-md-3 col-sm-3">8 Days</div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/people.png" class="img-fluid" alt="..."></div> 
+                            <div class="col-lg-5 col-md-5 col-sm-5">30 People Going</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6"><h4 class="card-title">Amazon</h4></div>
+                            <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="assets/image/star.png" class="img-fluid" alt="..."></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/location.png" class="img-fluid" alt="..."></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 trendybrazil">Brazil</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h2 class="trendycol">1,223 $</h2></div>
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h4 class="trendycol2">1,200 $</h4></div>
+                        </div>
+                         
+                        <h6 class="card-text pb-2 trendyh6">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+                        <a href="#" class="btn btn-primary trendybutton">Explore Now</a>
+                    </div>
+                 </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <div class="card card1">
+                    <img class="trendymain" src="assets/image/giza.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/days.png" class="img-fluid" alt="..."></div>  
+                            <div class="col-lg-3 col-md-3 col-sm-3">8 Days</div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/people.png" class="img-fluid" alt="..."></div> 
+                            <div class="col-lg-5 col-md-5 col-sm-5">155 People Going</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6"><h4 class="card-title">Giza</h4></div>
+                            <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="assets/image/star.png" class="img-fluid" alt="..."></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 icons"><img src="assets/image/location.png" class="img-fluid" alt="..."></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 trendybrazil">Egypt</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h2 class="trendycol">1,200 $</h2></div>
+                            <div class="col-lg-5 col-md-5 col-sm-5"><h4 class="trendycol2">1,200 $</h4></div>
+                        </div>
+                         
+                        <h6 class="card-text pb-2 trendyh6">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+                        <a href="#" class="btn btn-primary trendybutton">Explore Now</a>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        
+        </div>
+</section> 
+
+<!--Testimonials Section-->
+<section class="reviews">
+    <div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+        <!--Heading--><h5 class="reviewsh5">PROMOTION</h5>
+        <h2 class="reviewsh2">See What Our Clients Say About Us</h2>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-4 reviewscarousel mt-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="assets/image/testimonials.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/image/testimonials.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/image/testimonials.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+</section>
+
+
+<div class="container-fluid mt-5 footer1">
+    <!--Row1-->
+    <div class="row align-items-center ">
+      <div class="col-lg-3 col-md-3 col-sm-3 footerspace">
+        <img src="assets/image/logo2.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 footer">
+        Company
+       </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 footer">
+       Destination
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 footer ">
+        Join Our Newsletter
+      </div>
+    </div> 
+  
+  <!--Row2-->
+  <div class="row align-items-center ">
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Travel Helps Companies 
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      About Us
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Maldives
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+    <img class="email" src="assets/image/email.png" class="img-fluid" alt="...">
+    </div>
+  </div>
+  <!--Row3-->
+  <div class="row align-items-center ">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      Manage Payment Easily
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Carrers
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Los Angelas
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 fs-6 footspace">
+        *will send you weekly updates for 
+    </div>
+  </div>
+    <!--Row4-->
+  <div class="row align-items-center ">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+   
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      Blog
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Las Vegas
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      your better Tour packages
+    </div>
+  </div>
+    <!--Row5-->
+  <div class="row align-items-center ">
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      <img src="assets/image/socialmedia.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Pricing
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 footspace">
+      Toronto
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>   
+  </div>
+ 
+
+ 
+ <div class="row align-items-center  reserved">
+     <div class="col-lg-6 col-md-6 col-sm-6">
+    </br>
+    </div>
+    
+  </div>
+<!--Row6-->
+ 
+
+    <div class="row align-items-center border-top reserved">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        </br>
+      </div>
+     <div class="col-lg-6 col-md-6 col-sm-6">
+        Copyright @ Xpro 2022. All Rights Reserved
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        </br>
+      </div>
+    </div>
+</div>
+
+
+   <!-- <img class="footerimage" src="/website/image/footerimg.png" class="img-fluid" alt="...">-->
+
+
+    
+  <!--testing-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
